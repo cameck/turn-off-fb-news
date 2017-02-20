@@ -1,0 +1,17 @@
+{
+"manifest_version": 2,
+    "name": "Turn Off FB News",
+    "description": "Sometimes you just want puppy videos on Facebook",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.facebook/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ]
+}
