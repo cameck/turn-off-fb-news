@@ -1,17 +1,22 @@
 {
-"manifest_version": 2,
-    "name": "Turn Off FB News",
-    "description": "Sometimes you just want puppy videos on Facebook",
-    "version": "1.0",
-    "content_scripts": [
-        {
-            "matches": [
-                "*://*.facebook/*"
-            ],
-            "js": [
-                "content.js"
-            ],
-            "run_at": "document_end"
-        }
-    ]
+  "manifest_version": 2,
+  "name": "Turn Off FB News",
+  "description": "Sometimes Facebook should only be for puppies not news",
+  "version": "0.0.1",
+  "icons": {
+    "128": "icon_128.png",
+    "48": "icon_48.png",
+    "16": "icon_16.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.facebook.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ]
 }
