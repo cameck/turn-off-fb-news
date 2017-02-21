@@ -6,6 +6,6 @@ Sometimes we don't want to see the news on Facebook, we just want to see puppies
 
 Lightweight plugin, only the code that is needed to make this happen is here.
 
-[Download it from the Chrome Web Store]((https://chrome.google.com/webstore/detail/turn-off-fb-news/mpgdopdacohhanfgoepnbndjdhdcheco)
+[Download it from the Chrome Web Store](https://chrome.google.com/webstore/detail/turn-off-fb-news/mpgdopdacohhanfgoepnbndjdhdcheco)
 
 ![Turn Off FB News Logo](icon_128.png)   
